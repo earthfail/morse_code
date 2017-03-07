@@ -1,0 +1,34 @@
+# depslib dependency file v1.0
+1488584509 source:/home/earthfail/Documents/s_prog/morse_code/main.cpp
+	<iostream>
+	<array>
+	"incrypt.h"
+	"data.h"
+	"decrypt.h"
+	<fstream>
+
+1488581736 source:/home/earthfail/Documents/s_prog/morse_code/incrypte.cpp
+	"data.h"
+	<string>
+
+1488581734 /home/earthfail/Documents/s_prog/morse_code/incrypt.h
+	<string>
+
+1488583637 source:/home/earthfail/Documents/s_prog/morse_code/data.cpp
+	<array>
+	<string>
+	<fstream>
+
+1488581801 /home/earthfail/Documents/s_prog/morse_code/data.h
+	<string>
+	<fstream>
+	<array>
+
+1488584657 source:/home/earthfail/Documents/s_prog/morse_code/decrypt.cpp
+	"data.h"
+	<string>
+
+1488581760 /home/earthfail/Documents/s_prog/morse_code/decrypt.h
+	"data.h"
+	<string>
+
