@@ -1,14 +1,26 @@
 #include <iostream>
 #include <array>
 #include <string>
-#include "incrypt.h"
+#include "encrypt.h"
 #include "data.h"
 #include "decrypt.h"
 
 int main()
 {
-    std::string tmp{incrypt("Hello world")};
-    std::cout<<decrypt(tmp);
+    std::string message;
+    char choice;
+    do{
+      std::cout<<"Please Enter (e)ncrypt or (d)ecrypt: "<<std::endl;
+      std::cin<<choice;
+    }while(choice!='e' && choice!='d');
+    std::cout<<"Enter a message with only letters, numbers and spaces"<<std::endl;
+    std::cin.ignore(30,'\n');
+    std::cin<<message;
+    switch(choice)
+      {
+      case 'e': std::cout<<encrypt(message); break;
+      case 'd': std::cout<<decrypt(message); break;
+      }
     return 0;
 }
 /*
