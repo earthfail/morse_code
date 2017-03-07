@@ -36,8 +36,8 @@
 		<Unit filename="data.h" />
 		<Unit filename="decrypt.cpp" />
 		<Unit filename="decrypt.h" />
-		<Unit filename="incrypt.cpp" />
-		<Unit filename="incrypt.h" />
+		<Unit filename="encrypt.cpp" />
+		<Unit filename="encrypt.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="morse_parts" />
 		<Extensions>

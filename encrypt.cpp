@@ -1,7 +1,7 @@
 #include"data.h"
 #include<string>
 
-std::string incrypt(const std::string& sentence)
+std::string encrypt(const std::string& sentence)
 {
     std::string output;
     int length=sentence.length(),iterat=0,index;
